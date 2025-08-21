@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Consultancy Services</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+  <script src="js/script.js" defer></script>
+
+  <!-- ===== ABOUT PAGE ===== -->
+  <div id="about-page" class="page">
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+
+          <div class="about-text">
+            <div class="card">
+              <p>We are a Kenyan team of passionate consultants dedicated to helping startup businesses thrive in the digital age...</p>
+            </div>
+
+            <div class="card">
+              <p>We help organizations design clear Standard Operating Procedures (SOPs), map critical processes, and strengthen their systems...</p>
+            </div>
+
+            <div class="card">
+              <p>With expertise in web development, digital marketing, and business strategy, we offer a comprehensive suite of services...</p>
+            </div>
+
+            <div class="card">
+              <p>Our mission is to empower Kenyan businesses with the tools and knowledge they need to succeed...</p>
+            </div>
+
+            <div class="card">
+              <p>Whether you're a startup looking to establish your online presence or an established business seeking optimization...</p>
+            </div>
+
+            <div class="card">
+              <p>Ready to take your business to the next level? 
+                <a href="contact.html" class="button">Get a Free Consultation</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="about-image">
+  <div class="image-ring">
+    <img src="assets/images/official-image.jpg" alt="Our Team">
+    <p class="caption">Founder & CEO</p>
+  </div>
+</div>
+        </div>
+    </section>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+</body>
+</html>

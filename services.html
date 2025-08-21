@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Consultancy Services</title>
+  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+<div id="header-placeholder"></div>
+    <script src="js/script.js" defer></script>
+ 
+  <!-- ===== SERVICES PAGE ===== -->
+  <main id="services-page" class="page">
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-container">
+
+          <!-- SOP Design -->
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>SOP Design & Updates</h3>
+            <div class="services-details">
+              <h4>Standard Operating Procedures</h4>
+              <ul>
+                <li>Customized SOPs tailored to industry standards</li>
+                <li>Workflow standardization across teams</li>
+                <li>Compliance-focused documentation</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Process Mapping -->
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>Process Mapping</h3>
+            <div class="services-details">
+              <h4>Visual Process Mapping</h4>
+                <li>Visual workflows for critical operations</li>
+                <li>Identifying bottlenecks and inefficiencies</li>
+                <li>Training teams on process flows</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Systems Support -->
+          <div class="services-card">
+            <div class="services-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <h3>Systems Support</h3>
+            <div class="services-details">
+              <h4>ISO & HACCP</h4>
+              <ul>
+                <li>Implementation of digital tools for workflow tracking</li>
+                <li>Ongoing system audits</li>
+                <li>Staff training and continuous improvement</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- ===== FOOTER PLACEHOLDER ===== -->
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+</body>
+</html>
