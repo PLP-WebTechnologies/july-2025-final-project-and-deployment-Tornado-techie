@@ -73,7 +73,7 @@ The project follows best practices for production:
 
 The website is hosted on **GitHub Pages** for easy access.  
 
-🔗 **Live Website URL:** [https://tornado-techie.github.io/july-2025-final-project-and-deployment-Tornado-techie/](https://tornado-techie.github.io/july-2025-final-project-and-deployment-Tornado-techie/)  
+🔗 **Live Website URL:** [https://tornado-techie.github.io/consulting-services-website/](https://tornado-techie.github.io/consulting-services-website/)  
 
 ---
 
