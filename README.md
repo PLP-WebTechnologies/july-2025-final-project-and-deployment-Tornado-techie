@@ -4,7 +4,7 @@ A fully responsive and interactive 5-page website built with HTML5, CSS3, and va
 
 ## 🚀 Live Demo
 
-[View Live Website](https://your-username.github.io/sallq-consultants-website/) 
+[View Live Website](https://tornado-techie.github.io/sallq-consultants/) 
 
 ## 📋 Project Overview
 
