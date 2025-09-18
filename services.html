@@ -3,82 +3,386 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services | Consultancy Services</title>
+  <title>Our Services | ConsultPro - Digital Solutions & Consulting</title>
+  <meta name="description" content="Explore our comprehensive range of services including web development, digital marketing, business consulting, and SOP development.">
   <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
-<div id="header-placeholder"></div>
-    <script src="js/script.js" defer></script>
- 
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
   <!-- ===== SERVICES PAGE ===== -->
-  <main id="services-page" class="page">
-    <section id="services">
+  <main style="padding-top: 80px;">
+    <!-- Hero Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-color), var(--dark)); color: var(--white); text-align: center;">
       <div class="container">
-        <h2>Our Services</h2>
-        <div class="services-container">
+        <h1 class="fade-in" style="color: var(--white); margin-bottom: 1rem;">Our Services</h1>
+        <p class="fade-in" style="font-size: 1.25rem; color: var(--gray-200); max-width: 700px; margin: 0 auto;">Comprehensive digital solutions designed to transform your business and drive sustainable growth in the digital age.</p>
+      </div>
+    </section>
 
-          <!-- SOP Design -->
-          <div class="services-card">
-            <div class="services-icon">
-              <i class="fab fa-html5"></i>
-            </div>
-            <h3>SOP Design & Updates</h3>
-            <div class="services-details">
-              <h4>Standard Operating Procedures</h4>
-              <ul>
-                <li>Customized SOPs tailored to industry standards</li>
-                <li>Workflow standardization across teams</li>
-                <li>Compliance-focused documentation</li>
-              </ul>
+    <!-- Interactive Flip Cards Section -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <h2 class="fade-in">Our Core Services</h2>
+          <p class="fade-in">Hover over each card to discover more details</p>
+        </div>
+        
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+          <!-- Web Development Flip Card -->
+          <div class="flip-card fade-in">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <i class="fas fa-code" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>Web Development</h3>
+                <p>Custom websites and web applications</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Web Development</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                  <li>• Responsive website design</li>
+                  <li>• E-commerce solutions</li>
+                  <li>• Web application development</li>
+                  <li>• CMS integration</li>
+                  <li>• Performance optimization</li>
+                </ul>
+                <a href="#web-development" class="btn" style="background: var(--white); color: var(--dark);">Learn More</a>
+              </div>
             </div>
           </div>
 
-          <!-- Process Mapping -->
-          <div class="services-card">
-            <div class="services-icon">
-              <i class="fab fa-css3-alt"></i>
-            </div>
-            <h3>Process Mapping</h3>
-            <div class="services-details">
-              <h4>Visual Process Mapping</h4>
-                <li>Visual workflows for critical operations</li>
-                <li>Identifying bottlenecks and inefficiencies</li>
-                <li>Training teams on process flows</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Systems Support -->
-          <div class="services-card">
-            <div class="services-icon">
-              <i class="fab fa-python"></i>
-            </div>
-            <h3>Systems Support</h3>
-            <div class="services-details">
-              <h4>ISO & HACCP</h4>
-              <ul>
-                <li>Implementation of digital tools for workflow tracking</li>
-                <li>Ongoing system audits</li>
-                <li>Staff training and continuous improvement</li>
-              </ul>
+          <!-- Digital Marketing Flip Card -->
+          <div class="flip-card fade-in">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <i class="fas fa-chart-line" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>Digital Marketing</h3>
+                <p>Strategic online marketing campaigns</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Digital Marketing</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                  <li>• SEO optimization</li>
+                  <li>• Social media marketing</li>
+                  <li>• Content strategy</li>
+                  <li>• PPC advertising</li>
+                  <li>• Analytics & reporting</li>
+                </ul>
+                <a href="#digital-marketing" class="btn" style="background: var(--white); color: var(--dark);">Learn More</a>
+              </div>
             </div>
           </div>
 
+          <!-- Business Consulting Flip Card -->
+          <div class="flip-card fade-in">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <i class="fas fa-cogs" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>Business Consulting</h3>
+                <p>Strategic guidance and optimization</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Business Consulting</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                  <li>• Business strategy development</li>
+                  <li>• Process optimization</li>
+                  <li>• Digital transformation</li>
+                  <li>• Performance analysis</li>
+                  <li>• Growth planning</li>
+                </ul>
+                <a href="#business-consulting" class="btn" style="background: var(--white); color: var(--dark);">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SOP Development Flip Card -->
+          <div class="flip-card fade-in">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <i class="fas fa-clipboard-list" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>SOP Development</h3>
+                <p>Standard Operating Procedures</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>SOP Development</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                  <li>• Process documentation</li>
+                  <li>• Workflow optimization</li>
+                  <li>• Quality standards</li>
+                  <li>• Training materials</li>
+                  <li>• Compliance frameworks</li>
+                </ul>
+                <a href="#sop-development" class="btn" style="background: var(--white); color: var(--dark);">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Process Mapping Flip Card -->
+          <div class="flip-card fade-in">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <i class="fas fa-sitemap" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>Process Mapping</h3>
+                <p>Visual workflow analysis</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Process Mapping</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                  <li>• Current state analysis</li>
+                  <li>• Future state design</li>
+                  <li>• Bottleneck identification</li>
+                  <li>• Efficiency improvements</li>
+                  <li>• Visual documentation</li>
+                </ul>
+                <a href="#process-mapping" class="btn" style="background: var(--white); color: var(--dark);">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Support & Maintenance Flip Card -->
+          <div class="flip-card fade-in">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <i class="fas fa-tools" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                <h3>Support & Maintenance</h3>
+                <p>Ongoing technical support</p>
+              </div>
+              <div class="flip-card-back">
+                <h3>Support & Maintenance</h3>
+                <ul style="text-align: left; margin: 1rem 0;">
+                  <li>• 24/7 technical support</li>
+                  <li>• Regular updates</li>
+                  <li>• Security monitoring</li>
+                  <li>• Performance optimization</li>
+                  <li>• Backup management</li>
+                </ul>
+                <a href="#support-maintenance" class="btn" style="background: var(--white); color: var(--dark);">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Services Accordion -->
+    <section class="section" style="background-color: var(--light-bg);">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <h2 class="fade-in">Service Details</h2>
+          <p class="fade-in">Click on each service to learn more about our comprehensive offerings</p>
+        </div>
+
+        <div style="max-width: 800px; margin: 0 auto;">
+          <!-- Web Development Accordion -->
+          <div class="accordion-item fade-in" id="web-development">
+            <div class="accordion-header">
+              <h3><i class="fas fa-code" style="margin-right: 10px;"></i>Web Development</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <p>Our web development services encompass everything from simple business websites to complex web applications. We use modern technologies and best practices to ensure your digital presence is fast, secure, and user-friendly.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div>
+                  <h4>Technologies We Use:</h4>
+                  <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>React, Vue.js, Angular</li>
+                    <li>Node.js, Python, PHP</li>
+                    <li>MongoDB, MySQL, PostgreSQL</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>What's Included:</h4>
+                  <ul>
+                    <li>Responsive design</li>
+                    <li>SEO optimization</li>
+                    <li>Performance optimization</li>
+                    <li>Security implementation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Digital Marketing Accordion -->
+          <div class="accordion-item fade-in" id="digital-marketing">
+            <div class="accordion-header">
+              <h3><i class="fas fa-chart-line" style="margin-right: 10px;"></i>Digital Marketing</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <p>Our digital marketing strategies are designed to increase your online visibility, engage your target audience, and drive conversions. We create data-driven campaigns that deliver measurable results.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div>
+                  <h4>Services Include:</h4>
+                  <ul>
+                    <li>Search Engine Optimization</li>
+                    <li>Social Media Management</li>
+                    <li>Content Marketing</li>
+                    <li>Email Marketing</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Platforms We Cover:</h4>
+                  <ul>
+                    <li>Google Ads & Analytics</li>
+                    <li>Facebook & Instagram</li>
+                    <li>LinkedIn & Twitter</li>
+                    <li>YouTube & TikTok</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Business Consulting Accordion -->
+          <div class="accordion-item fade-in" id="business-consulting">
+            <div class="accordion-header">
+              <h3><i class="fas fa-cogs" style="margin-right: 10px;"></i>Business Consulting</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <p>Our business consulting services help organizations streamline operations, improve efficiency, and achieve sustainable growth through strategic planning and process optimization.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div>
+                  <h4>Consulting Areas:</h4>
+                  <ul>
+                    <li>Strategic Planning</li>
+                    <li>Operations Management</li>
+                    <li>Digital Transformation</li>
+                    <li>Change Management</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Deliverables:</h4>
+                  <ul>
+                    <li>Business Analysis Reports</li>
+                    <li>Strategic Roadmaps</li>
+                    <li>Implementation Plans</li>
+                    <li>Performance Metrics</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SOP Development Accordion -->
+          <div class="accordion-item fade-in" id="sop-development">
+            <div class="accordion-header">
+              <h3><i class="fas fa-clipboard-list" style="margin-right: 10px;"></i>SOP Development</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <p>We develop comprehensive Standard Operating Procedures that ensure consistency, quality, and efficiency across your organization's operations.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div>
+                  <h4>SOP Components:</h4>
+                  <ul>
+                    <li>Step-by-step procedures</li>
+                    <li>Quality checkpoints</li>
+                    <li>Role definitions</li>
+                    <li>Compliance requirements</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Benefits:</h4>
+                  <ul>
+                    <li>Improved consistency</li>
+                    <li>Reduced errors</li>
+                    <li>Better training</li>
+                    <li>Easier scaling</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Process Mapping Accordion -->
+          <div class="accordion-item fade-in" id="process-mapping">
+            <div class="accordion-header">
+              <h3><i class="fas fa-sitemap" style="margin-right: 10px;"></i>Process Mapping</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <p>Our process mapping services provide visual representations of your business workflows, helping identify inefficiencies and optimization opportunities.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div>
+                  <h4>Mapping Types:</h4>
+                  <ul>
+                    <li>Current State Maps</li>
+                    <li>Future State Maps</li>
+                    <li>Value Stream Maps</li>
+                    <li>Swimlane Diagrams</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Outcomes:</h4>
+                  <ul>
+                    <li>Process clarity</li>
+                    <li>Bottleneck identification</li>
+                    <li>Efficiency gains</li>
+                    <li>Cost reduction</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Support & Maintenance Accordion -->
+          <div class="accordion-item fade-in" id="support-maintenance">
+            <div class="accordion-header">
+              <h3><i class="fas fa-tools" style="margin-right: 10px;"></i>Support & Maintenance</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <p>Our ongoing support and maintenance services ensure your digital assets remain secure, up-to-date, and performing optimally.</p>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                <div>
+                  <h4>Support Services:</h4>
+                  <ul>
+                    <li>Technical troubleshooting</li>
+                    <li>Software updates</li>
+                    <li>Security monitoring</li>
+                    <li>Performance optimization</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Response Times:</h4>
+                  <ul>
+                    <li>Critical issues: 2 hours</li>
+                    <li>High priority: 24 hours</li>
+                    <li>Medium priority: 48 hours</li>
+                    <li>Low priority: 72 hours</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center fade-in">
+          <h2>Ready to Get Started?</h2>
+          <p>Let's discuss which services would be most beneficial for your business goals.</p>
+          <div style="margin-top: 2rem;">
+            <a href="contact.html" class="btn btn-primary" style="margin-right: 1rem;">Request a Consultation</a>
+            <a href="portfolio.html" class="btn btn-outline">View Our Portfolio</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
-<!-- ===== FOOTER PLACEHOLDER ===== -->
+
+  <!-- Footer Placeholder -->
   <div id="footer-placeholder"></div>
-  <script>
-    fetch("footer.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("footer-placeholder").innerHTML = data;
-      });
-  </script>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
 </body>
 </html>

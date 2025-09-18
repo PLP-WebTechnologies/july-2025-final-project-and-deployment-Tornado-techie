@@ -3,68 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Consultancy Services</title>
+  <title>Home | SallQ Cpnsultants - Digital Business Solutions</title>
+  <meta name="description" content="Transform your business with our comprehensive digital solutions. Web development, digital marketing, and business consulting services in Kenya.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <!-- Header Placeholder -->
   <div id="header-placeholder"></div>
-  <script src="js/script.js" defer></script>
 
-  <!-- ===== ABOUT PAGE ===== -->
-  <div id="about-page" class="page">
-    <section id="about">
+  <!-- ===== HERO SECTION WITH SLIDER ===== -->
+  <section class="hero">
+    <div class="hero-slider">
+      <!-- Slide 1 -->
+      <div class="slide active">
+        <div class="slide-content">
+          <h1 class="fade-in">Transform Your Business Digital Future</h1>
+          <p class="fade-in">We help Kenyan startups and businesses thrive in the digital age with cutting-edge web development, strategic consulting, and innovative marketing solutions.</p>
+          <div class="fade-in">
+            <a href="services.html" class="btn btn-primary">Explore Our Services</a>
+            <a href="contact.html" class="btn btn-outline">Get Free Consultation</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <div class="slide-content">
+          <h1 class="fade-in">Strategic Business Consulting</h1>
+          <p class="fade-in">Streamline your operations with our expert SOP development, process mapping, and strategic business optimization services tailored for growth.</p>
+          <div class="fade-in">
+            <a href="about.html" class="btn btn-primary">Learn About Us</a>
+            <a href="portfolio.html" class="btn btn-outline">View Our Work</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <div class="slide-content">
+          <h1 class="fade-in">Digital Marketing Excellence</h1>
+          <p class="fade-in">Boost your online presence and reach your target audience with our comprehensive digital marketing strategies and web development expertise.</p>
+          <div class="fade-in">
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            <a href="services.html" class="btn btn-outline">Our Solutions</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button class="slider-btn prev" aria-label="Previous slide">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider-btn next" aria-label="Next slide">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Slider Dots -->
+      <div class="slider-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- About Preview Section -->
+    <section class="section">
       <div class="container">
-        <h2>About Us</h2>
-        <div class="about-content">
+        <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center; gap: 4rem;">
+          <div class="fade-in">
+            <h2>Why Choose SallQ Consultants?</h2>
+            <p>We are a passionate team of Kenyan consultants dedicated to helping startup businesses thrive in the digital age. Our comprehensive approach combines technical expertise with strategic thinking.</p>
+            <ul style="list-style: none; padding: 0;">
+              <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                <i class="fas fa-check-circle" style="color: var(--primary-color); margin-right: 1rem;"></i>
+                Expert web development and digital solutions
+              </li>
+              <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                <i class="fas fa-check-circle" style="color: var(--primary-color); margin-right: 1rem;"></i>
+                Strategic business consulting and SOP development
+              </li>
+              <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                <i class="fas fa-check-circle" style="color: var(--primary-color); margin-right: 1rem;"></i>
+                Comprehensive digital marketing strategies
+              </li>
+              <li style="margin-bottom: 1rem; display: flex; align-items: center;">
+                <i class="fas fa-check-circle" style="color: var(--primary-color); margin-right: 1rem;"></i>
+                Local expertise with global standards
+              </li>
+            </ul>
+            <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+          </div>
+          <div class="slide-in-right">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team collaboration" style="border-radius: var(--border-radius); box-shadow: var(--shadow-lg);">
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="about-text">
-            <div class="card">
-              <p>We are a Kenyan team of passionate consultants dedicated to helping startup businesses thrive in the digital age...</p>
+    <!-- Services Preview -->
+    <section class="section" style="background-color: var(--light-bg);">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <h2 class="fade-in">Our Core Services</h2>
+          <p class="fade-in">Comprehensive digital solutions to transform your business</p>
+        </div>
+        
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+          <div class="card fade-in">
+            <div style="text-align: center; margin-bottom: 1rem;">
+              <i class="fas fa-code" style="font-size: 3rem; color: var(--primary-color);"></i>
             </div>
-
-            <div class="card">
-              <p>We help organizations design clear Standard Operating Procedures (SOPs), map critical processes, and strengthen their systems...</p>
-            </div>
-
-            <div class="card">
-              <p>With expertise in web development, digital marketing, and business strategy, we offer a comprehensive suite of services...</p>
-            </div>
-
-            <div class="card">
-              <p>Our mission is to empower Kenyan businesses with the tools and knowledge they need to succeed...</p>
-            </div>
-
-            <div class="card">
-              <p>Whether you're a startup looking to establish your online presence or an established business seeking optimization...</p>
-            </div>
-
-            <div class="card">
-              <p>Ready to take your business to the next level? 
-                <a href="contact.html" class="button">Get a Free Consultation</a>
-              </p>
-            </div>
+            <h3>Web Development</h3>
+            <p>Custom websites and web applications built with modern technologies for optimal performance and user experience.</p>
+            <a href="services.html#web-development" class="btn btn-outline">Learn More</a>
           </div>
 
-          <div class="about-image">
-  <div class="image-ring">
-    <img src="assets/images/official-image.jpg" alt="Our Team">
-    <p class="caption">Founder & CEO</p>
-  </div>
-</div>
-        </div>
-    </section>
-  </div>
+          <div class="card fade-in">
+            <div style="text-align: center; margin-bottom: 1rem;">
+              <i class="fas fa-chart-line" style="font-size: 3rem; color: var(--primary-color);"></i>
+            </div>
+            <h3>Digital Marketing</h3>
+            <p>Strategic digital marketing campaigns to boost your online presence and drive meaningful engagement with your audience.</p>
+            <a href="services.html#digital-marketing" class="btn btn-outline">Learn More</a>
+          </div>
 
-  <!-- ===== FOOTER ===== -->
+          <div class="card fade-in">
+            <div style="text-align: center; margin-bottom: 1rem;">
+              <i class="fas fa-cogs" style="font-size: 3rem; color: var(--primary-color);"></i>
+            </div>
+            <h3>Business Consulting</h3>
+            <p>Expert guidance on business strategy, process optimization, and Standard Operating Procedures development.</p>
+            <a href="services.html#business-consulting" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center fade-in">
+          <h2>Ready to Transform Your Business?</h2>
+          <p>Let's discuss how we can help you achieve your digital goals and business objectives.</p>
+          <div style="margin-top: 2rem;">
+            <a href="contact.html" class="btn btn-primary" style="margin-right: 1rem;">Get Free Consultation</a>
+            <a href="portfolio.html" class="btn btn-outline">View Our Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Placeholder -->
   <div id="footer-placeholder"></div>
-  <script>
-    fetch("footer.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("footer-placeholder").innerHTML = data;
-      });
-  </script>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
 </body>
 </html>

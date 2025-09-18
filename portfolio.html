@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | SallQ Consultants - Our Work & Success Stories</title>
+  <meta name="description" content="Explore our portfolio of successful projects including web development, digital marketing campaigns, and business consulting solutions.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
+  <!-- ===== PORTFOLIO PAGE ===== -->
+  <main style="padding-top: 80px;">
+    <!-- Hero Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-color), var(--dark)); color: var(--white); text-align: center;">
+      <div class="container">
+        <h1 class="fade-in" style="color: var(--white); margin-bottom: 1rem;">Our Portfolio</h1>
+        <p class="fade-in" style="font-size: 1.25rem; color: var(--gray-200); max-width: 700px; margin: 0 auto;">Discover the successful projects we've delivered for our clients across various industries and business sectors.</p>
+      </div>
+    </section>
+
+    <!-- Portfolio Statistics -->
+    <section class="section" style="background-color: var(--light-bg);">
+      <div class="container">
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+          <div class="fade-in">
+            <h3 style="font-size: 3rem; color: var(--primary-color); margin: 0;">50+</h3>
+            <p style="font-weight: 600; margin: 0;">Projects Completed</p>
+          </div>
+          <div class="fade-in">
+            <h3 style="font-size: 3rem; color: var(--primary-color); margin: 0;">30+</h3>
+            <p style="font-weight: 600; margin: 0;">Happy Clients</p>
+          </div>
+          <div class="fade-in">
+            <h3 style="font-size: 3rem; color: var(--primary-color); margin: 0;">95%</h3>
+            <p style="font-weight: 600; margin: 0;">Client Retention</p>
+          </div>
+          <div class="fade-in">
+            <h3 style="font-size: 3rem; color: var(--primary-color); margin: 0;">5+</h3>
+            <p style="font-weight: 600; margin: 0;">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Filter and Gallery -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <h2 class="fade-in">Our Work</h2>
+          <p class="fade-in">Filter by category to see specific types of projects</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons fade-in">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web-development">Web Development</button>
+          <button class="filter-btn" data-filter="digital-marketing">Digital Marketing</button>
+          <button class="filter-btn" data-filter="business-consulting">Business Consulting</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid">
+          <!-- Web Development Projects -->
+          <div class="portfolio-item" data-category="web-development">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="E-commerce Website" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>E-commerce Platform</h3>
+              <p>Modern online store with payment integration and inventory management</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">React</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Node.js</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Business Website" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Corporate Website</h3>
+              <p>Professional business website with CMS and analytics integration</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">WordPress</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">PHP</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="web-development">
+            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Web Application" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Custom Web App</h3>
+              <p>Task management application with real-time collaboration features</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Vue.js</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Express</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Digital Marketing Projects -->
+          <div class="portfolio-item" data-category="digital-marketing">
+            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Social Media Campaign" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Social Media Campaign</h3>
+              <p>Comprehensive social media strategy that increased engagement by 300%</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Instagram</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Facebook</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">LinkedIn</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="digital-marketing">
+            <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="SEO Campaign" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>SEO Optimization</h3>
+              <p>Improved search rankings and organic traffic by 250% in 6 months</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">SEO</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Content</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="digital-marketing">
+            <img src="https://images.unsplash.com/photo-1553830591-fddf9c346e35?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Email Marketing" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Email Marketing Campaign</h3>
+              <p>Automated email sequences that generated $50K in additional revenue</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Mailchimp</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Automation</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">A/B Testing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Business Consulting Projects -->
+          <div class="portfolio-item" data-category="business-consulting">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Business Strategy" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Digital Transformation</h3>
+              <p>Complete digital overhaul that increased operational efficiency by 40%</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Strategy</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Process</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Implementation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="business-consulting">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="SOP Development" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>SOP Development</h3>
+              <p>Comprehensive standard operating procedures for manufacturing company</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">SOPs</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Training</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Quality</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="business-consulting">
+            <img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Process Mapping" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Process Optimization</h3>
+              <p>Workflow analysis and optimization that reduced processing time by 60%</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Mapping</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Analysis</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Optimization</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Branding Projects -->
+          <div class="portfolio-item" data-category="branding">
+            <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Brand Identity" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Brand Identity Design</h3>
+              <p>Complete brand identity package including logo, colors, and guidelines</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Logo</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Guidelines</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Collateral</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="branding">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Marketing Materials" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Marketing Collateral</h3>
+              <p>Print and digital marketing materials with consistent brand messaging</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Print</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Digital</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Brochures</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item" data-category="branding">
+            <img src="https://images.unsplash.com/photo-1586953408448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Package Design" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Package Design</h3>
+              <p>Product packaging design that increased shelf appeal and sales</p>
+              <div style="margin-top: 1rem;">
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Packaging</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Design</span>
+                <span style="background: rgba(255,255,255,0.2); padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Production</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" style="background-color: var(--light-bg);">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <h2 class="fade-in">What Our Clients Say</h2>
+          <p class="fade-in">Real feedback from satisfied clients</p>
+        </div>
+        
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+          <div class="card fade-in">
+            <div style="display: flex; margin-bottom: 1rem;">
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+            </div>
+            <p>"SallQ Consultants transformed our online presence completely. Their web development team created a beautiful, fast website that has significantly increased our conversions."</p>
+            <div style="display: flex; align-items: center; margin-top: 1rem;">
+              <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 1rem;">
+              <div>
+                <h4 style="margin: 0; font-size: 1rem;">Sarah Johnson</h4>
+                <p style="margin: 0; font-size: 0.9rem; color: var(--gray-600);">CEO, TechStart Kenya</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card fade-in">
+            <div style="display: flex; margin-bottom: 1rem;">
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+            </div>
+            <p>"The business consulting services helped us streamline our operations. The SOPs they developed have improved our efficiency by 40% and reduced errors significantly."</p>
+            <div style="display: flex; align-items: center; margin-top: 1rem;">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 1rem;">
+              <div>
+                <h4 style="margin: 0; font-size: 1rem;">David Mwangi</h4>
+                <p style="margin: 0; font-size: 0.9rem; color: var(--gray-600);">Operations Manager, GreenField Ltd</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card fade-in">
+            <div style="display: flex; margin-bottom: 1rem;">
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+              <i class="fas fa-star" style="color: #fbbf24;"></i>
+            </div>
+            <p>"Their digital marketing strategies are outstanding. Our social media engagement increased by 300% and our online sales have doubled in just 6 months."</p>
+            <div style="display: flex; align-items: center; margin-top: 1rem;">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 1rem;">
+              <div>
+                <h4 style="margin: 0; font-size: 1rem;">Grace Njeri</h4>
+                <p style="margin: 0; font-size: 0.9rem; color: var(--gray-600);">Marketing Director, FashionHub</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center fade-in">
+          <h2>Ready to Start Your Project?</h2>
+          <p>Let's create something amazing together. Contact us to discuss your project requirements.</p>
+          <div style="margin-top: 2rem;">
+            <a href="contact.html" class="btn btn-primary" style="margin-right: 1rem;">Start Your Project</a>
+            <a href="services.html" class="btn btn-outline">View Our Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
